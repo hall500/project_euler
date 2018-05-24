@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Project Euler</title>
+        <link rel="stylesheet" href="style.css">
+        <script language="javascript" type="text/javascript" src="main.js"></script>
+    </head>
+
+    <body>
+        <!-- Test Button -->
+        <button type="button" onclick="console.log(largestproductgrid())">Click me</button>
+
+        <!-- Multiples of 3 and 5 -->
+        <h2>Multiples of 3 and 5</h2>
+        <div id="multiples3_5" class="work-area">
+            <form oninput="answer.value = multiples3_5(parseInt(num.value))">
+                    Enter Limit of Natural Numbers: <input type="number" id="num" min="1" max="20000">
+                    Sum of Natural numbers is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/multiples3_5.js">View Code</a>
+        </div> 
+
+        <!-- Even Fibonacci Numbers -->
+        <h2>Even Fibonacci Numbers</h2>
+        <div id="evenfibonum" class="work-area">
+            <form oninput="answer.value = evenfibonum(parseInt(num.value))">
+                    Enter Number of Fibonacci: <input type="number" id="num" min="1" max="2000">
+                    Sum of Even Fibonacci numbers is <output name="answer" for="num"></output>
+            </form> 
+            <a href="js/eulerjs/evenfibonum.js">View Code</a>
+        </div>
+
+        <!-- Largest Prime Factor  -->
+        <h2>Largest Prime Factor</h2>
+        <div id="largestprime" class="work-area">
+            <form oninput="answer.value = largestprime(parseInt(num.value))">
+                    Enter Number: <input type="number" id="num" min="1" max="100000">
+                    The largest factor is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/largestprime.js">View Code</a>
+        </div>
+
+        <!-- Largest Palindrome Product  -->
+        <h2>Largest Palindrome Factor</h2>
+        <div id="largestpalindrome" class="work-area">
+            <form oninput="answer.value = largestpalindrome(parseInt(num.value))">
+                    Enter Number: <input type="number" id="num" min="1" max="6" default="0">
+                    The largest Palindrome Product is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/largestpalindrome.js">View Code</a>
+        </div>
+
+        <!-- Smallest Multiple  -->
+        <h2>Smallest Multiple</h2>
+        <div id="smallestmultiple" class="work-area">
+            <form oninput="answer.value = smallestmultiple(parseInt(num.value))">
+                    Enter Number: <input type="number" id="num" min="1" max="100" default="0">
+                    The Smallest Positive number evenly divisible is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/smallestmultiple.js">View Code</a>
+        </div>
+
+        <!-- Sum Square Difference  -->
+        <h2>Sum Square Difference</h2>
+        <div id="sumsquarediff" class="work-area">
+            <form oninput="answer.value = sumsquarediff(parseInt(num.value))">
+                    Enter Number: <input type="number" id="num" min="1" max="100" default="0">
+                    The difference in squared sums is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/smallestmultiple.js">View Code</a>
+        </div>
+
+        <!-- 10001st Prime  -->
+        <h2>10 001st Prime</h2>
+        <div id="numberedprime" class="work-area">
+            <form oninput="answer.value = numberedprime(parseInt(num.value))">
+                    Enter Prime Position: <input type="number" id="num" min="1" max="50000" default="0">
+                    The Prime Number is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/smallestmultiple.js">View Code</a>
+        </div>
+
+        <!-- Largest product in a series  -->
+        <h2>Largest product in a series</h2>
+        <div id="largestproductinseries" class="work-area">
+            <form oninput="answer.value = largestproductinseries(parseInt(num.value))">
+                    Enter Number of Adjascent digits: <input type="number" id="num" min="1" max="1000" default="0">
+                    The Greatest product is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/largestproductinseries.js">View Code</a>
+        </div>
+
+        <!-- Special Pythagorean triplet  -->
+        <h2>Special Pythagorean triplet</h2>
+        <div id="largestproductinseries" class="work-area">
+            <form oninput="answer.value = specialpythagoreantriplet(parseInt(num.value))">
+                    Enter Sum abc: <input type="number" id="num" min="1" max="10000" default="0">
+                    The Pythagorean Triplet is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/specialpythagoreantriplet.js">View Code</a>
+        </div>
+
+        <!-- Summation of primes  -->
+        <h2>Summation of primes</h2>
+        <div id="summationofprimes" class="work-area">
+            <form oninput="answer.value = summationofprimes(parseInt(num.value))">
+                    Enter Number Limit: <input type="number" id="num" min="1" max="10000" default="0">
+                    The Sum of all primes below it is <output name="answer" for="num"></output>
+            </form>
+            <a href="js/eulerjs/summationofprimes.js">View Code</a>
+        </div>
+
+        <script language="javascript" type="text/javascript" src="js/eulerjs/largestprime.js"></script>
+    </body>
+</html>
